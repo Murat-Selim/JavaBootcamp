@@ -6,7 +6,9 @@ public class Main {
         Customer customer = new Customer();
         System.out.println(employee.firstName);
         System.out.println(customer.firstName);
-        CustomerManager customerManager=new CustomerManager();
+        CustomerManager customerManager = new CustomerManager();
+        EmployeeManager employeeManager = new EmployeeManager();
         customerManager.add();
+        employeeManager.bestEmployee();
     }
 }
